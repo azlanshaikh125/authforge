@@ -1,0 +1,24 @@
+# Models a typical legacy composition-rule policy, for auditing older systems.
+policy_min_length=8
+policy_max_length=16
+policy_require_classes=3
+policy_block_common=0
+policy_min_entropy_bits=30
+hash_allow_legacy=1
+hash_min_bcrypt_cost=8
+hash_min_pbkdf2_iterations=10000
+hash_min_argon2_mib=8
+hash_min_argon2_time=1
+hash_min_shacrypt_rounds=5000
+wordlist_warn_dup_pct=25
+mfa_min_totp_digits=6
+mfa_max_totp_window=2
+mfa_max_attempts=10
+mfa_require_phishing_resistant=0
+mfa_min_recovery_entropy_bits=48
+session_min_entropy_bits=64
+session_max_idle_min=60
+session_max_absolute_min=1440
+reset_min_entropy_bits=64
+reset_max_token_ttl_min=60
+reset_max_requests_per_hour=10

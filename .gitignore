@@ -1,0 +1,23 @@
+# AUTHFORGE runtime session outputs, logs, evidence & backups
+/reports/*
+!/reports/.gitkeep
+/logs/*
+!/logs/.gitkeep
+/evidence/*
+!/evidence/.gitkeep
+/backups/
+
+# Temporary test sandboxes & editor/OS artifacts
+/.tmp-test/
+*.swp
+*~
+.DS_Store
+
+# Local scratch patches, bundles, and archives
+/*.patch
+/*.tar.gz
+/*.zip
+
+# Local scope authorization files and secret test inputs
+/scope*.txt
+/*.secret

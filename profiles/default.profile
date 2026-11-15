@@ -1,0 +1,24 @@
+# Balanced baseline profile.
+policy_min_length=12
+policy_max_length=128
+policy_require_classes=0
+policy_block_common=1
+policy_min_entropy_bits=40
+hash_allow_legacy=0
+hash_min_bcrypt_cost=12
+hash_min_pbkdf2_iterations=310000
+hash_min_argon2_mib=19
+hash_min_argon2_time=2
+hash_min_shacrypt_rounds=100000
+wordlist_warn_dup_pct=10
+mfa_min_totp_digits=6
+mfa_max_totp_window=1
+mfa_max_attempts=5
+mfa_require_phishing_resistant=0
+mfa_min_recovery_entropy_bits=64
+session_min_entropy_bits=128
+session_max_idle_min=30
+session_max_absolute_min=480
+reset_min_entropy_bits=128
+reset_max_token_ttl_min=30
+reset_max_requests_per_hour=5

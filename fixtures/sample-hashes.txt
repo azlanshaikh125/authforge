@@ -1,0 +1,10 @@
+# Synthetic test hash dataset for AUTHFORGE Milestone 1 (authorized fixture only)
+$argon2id$v=19$m=65536,t=3,p=4$c29tZXNhbHQxMjM0NTY3OA$RdescudvJCsgt3ub+b+dWRWJTmaaJObG
+$2b$12$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ01234
+$2a$08$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ01234
+$6$rounds=5000$saltsalt12345678$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890123456789012345678901234567
+$1$saltsalt$abcdefghijklmnopqrstuu
+5f4dcc3b5aa765d61d8327deb882cf99
+5f4dcc3b5aa765d61d8327deb882cf99
+{SSHA}W6ph5Mm5Pz8GgiULbPgzG37mj9g=
+svc_locked:!:19000:0:99999:7:::
